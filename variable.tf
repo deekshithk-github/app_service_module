@@ -1,4 +1,4 @@
-variable "app_service_name" {
+variable "app_service_plan_name" {
     type = "string"
 }
 variable "location" {
@@ -7,7 +7,10 @@ variable "location" {
 variable "resource_group_name" {
     type = "string"
 }  
-variable "app_service_plan_idr" {
+variable "tier" {
+    type = "string"
+}
+variable "size" {
     type = "string"
 }
 
